@@ -13,6 +13,7 @@
 		655596071F30A3F6008501FE /* What_is_this.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 655596051F30A3F6008501FE /* What_is_this.xcdatamodeld */; };
 		655596091F30A3F6008501FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 655596081F30A3F6008501FE /* Assets.xcassets */; };
 		6555960C1F30A3F6008501FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6555960A1F30A3F6008501FE /* LaunchScreen.storyboard */; };
+		655596141F30B092008501FE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 655596131F30B092008501FE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		655596081F30A3F6008501FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6555960B1F30A3F6008501FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6555960D1F30A3F6008501FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		655596131F30B092008501FE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				655596021F30A3F6008501FE /* Main.storyboard */,
 				655596081F30A3F6008501FE /* Assets.xcassets */,
 				6555960A1F30A3F6008501FE /* LaunchScreen.storyboard */,
+				655596131F30B092008501FE /* Inceptionv3.mlmodel */,
 				6555960D1F30A3F6008501FE /* Info.plist */,
 				655596051F30A3F6008501FE /* What_is_this.xcdatamodeld */,
 			);
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				655596011F30A3F6008501FE /* ViewController.swift in Sources */,
+				655596141F30B092008501FE /* Inceptionv3.mlmodel in Sources */,
 				655595FF1F30A3F6008501FE /* AppDelegate.swift in Sources */,
 				655596071F30A3F6008501FE /* What_is_this.xcdatamodeld in Sources */,
 			);
